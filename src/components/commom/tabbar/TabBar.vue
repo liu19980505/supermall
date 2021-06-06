@@ -18,6 +18,7 @@ export default {
 
 <style lang="scss" scoped>
 #tab-bar {
+  height: 49px;
   display: flex;
   flex: 1;
   position: fixed;

@@ -6,6 +6,19 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
+      <style>
+          html,body{margin: 0;padding: 0;height: 100%;}
+          ul,li,ol,dl,dt,dd,h1,h2,h3,h4,h5,h6,p{margin: 0;padding: 0;}
+          li{list-style: none;}
+          /* (100vw/375px)*100px = ??vw */
+          html{font-size: 26.666666666666668vw;}
+          /* 1rem === ??vw === 100px */
+          body{font-size: 16px;}
+
+          @media all and (orientation:landscape){
+              html{font-size:100px;}
+          }
+      </style>
   </head>
   <body>
     <noscript>

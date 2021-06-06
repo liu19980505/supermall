@@ -5,7 +5,7 @@
   </div>
 </template>
 <script>
-import MainTabBar from '@/components/tabbar/MainTabBar'
+import MainTabBar from '@/components/commom/tabbar/MainTabBar'
 export default {
   name: 'APP',
   data () {
@@ -16,6 +16,16 @@ export default {
   }
 }
 </script>
-<style scoped lang="scss">
-@import "./assets/css/base.css";
+<style  lang="scss">
+//@import "assets/css/base.css";
+#app{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  .box{
+    flex: 1;
+    height: 100%;
+    overflow: auto;
+  }
+}
 </style>

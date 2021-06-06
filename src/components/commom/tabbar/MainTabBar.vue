@@ -1,5 +1,5 @@
 <template>
-  <tab-bar>
+  <tab-bar style="height: 49px">
     <tab-bar-item link="/home" activeColor="deeppink">
       <template v-slot:item-icon>
         <img src="@/assets/img/tabbar/home.svg" alt="">
